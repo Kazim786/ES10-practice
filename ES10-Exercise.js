@@ -23,7 +23,11 @@ trapped.flat(24)
 
 //#5 Clean up this email to have no whitespaces. Make the answer be in a single line (return a new string):
 const userEmail3 = '     cannotfillemailformcorrectly@gmail.com   '
+userEmail3 = userEmail3.trimStart()
 
+userEmail3 = userEmail3.trimEnd()
+
+console.log(userEmail3)
 
 
 //#6 Turn the below users (value is their ID number) into an array: [ [ 'user1', 18273 ], [ 'user2', 92833 ], [ 'user3', 90315 ] ]
