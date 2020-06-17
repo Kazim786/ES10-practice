@@ -12,7 +12,9 @@ console.log(greeting.flat())
 
 //#3 Turn the greeting array above into a string: 'Hello young grasshopper you are learning fast!'
 
-
+greeting.flatMap((i) => {
+    console.log(i.join(" "))
+  })
 
 //#4 Turn the trapped 3 number into: [3]
 const trapped = [[[[[[[[[[[[[[[[[[[[[[[[[[3]]]]]]]]]]]]]]]]]]]]]]]]]];
